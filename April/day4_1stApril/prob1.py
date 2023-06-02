@@ -1,7 +1,7 @@
 
 #   the function that will print the rangoli
 def print_rangoli(size):
-    
+    pass
     # your code goes here
 
 if __name__ == '__main__':
