@@ -15,4 +15,4 @@ console.log(a)
 //  i am linking the article from which i understood this so feel free to go and do a deep dive  
 
 //  alt click to open this link below
-https://www.freecodecamp.org/newsjavascript-object-keys-tutorial-how-to-use-a-js-key-value-pair/
+// https://www.freecodecamp.org/newsjavascript-object-keys-tutorial-how-to-use-a-js-key-value-pair/
