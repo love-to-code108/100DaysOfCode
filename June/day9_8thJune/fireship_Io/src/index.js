@@ -1,5 +1,5 @@
 
-import "./styles.scss"
+import "./styles.css"
 
 import { camelCase } from 'lodash'
 
