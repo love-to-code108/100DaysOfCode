@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("console.log(\"Aum Namah Shivay\");\n\n//# sourceURL=webpack://net_ninja/./src/index.js?");
+eval("\n\n\nconst firebaseConfig = {\n  apiKey: \"AIzaSyBbc77i7dOqxng_tIf2BkpOhBeIpBX2dnI\",\n  authDomain: \"aum-namah-shivay.firebaseapp.com\",\n  projectId: \"aum-namah-shivay\",\n  storageBucket: \"aum-namah-shivay.appspot.com\",\n  messagingSenderId: \"919587124930\",\n  appId: \"1:919587124930:web:f571812762d6188ec0ed5b\"\n};\n\n//# sourceURL=webpack://net_ninja/./src/index.js?");
 
 /***/ })
 
