@@ -1,9 +1,10 @@
 const path = require('path');
 
-module.export = {
+module.exports = {
+    mode: "development",
     entry: './src/index.js',  // this defines the entry point of your application
     output: {
-        filename: 'awesome.js',
         path: path.resolve(__dirname, 'dist'),
+        filename: 'awesome.js',
     }
 };
