@@ -4,10 +4,10 @@ const path = require('path');
 
 module.exports = {
     mode: "development",
-    entry: './src/index.js',  // this defines the entry point of your application
+    entry: './src/index.js',  // this defines the entry point of your application or basically like your source files
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'awesome.js',
+        path: path.resolve(__dirname, 'dist'),   // basically like your output file 
+        filename: 'awesome.js',                  // file name of the output file
     },
     module:{
         rules:[
