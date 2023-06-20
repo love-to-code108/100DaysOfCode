@@ -11,3 +11,9 @@ console.log(a++,a);
 a = 9;
 console.log(++a,a);
 // results(10,10)
+
+
+a = 10;
+let b = 20;
+let c = (a++) + b + a;
+console.log(c)
