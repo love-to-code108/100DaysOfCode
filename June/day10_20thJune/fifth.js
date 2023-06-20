@@ -13,6 +13,8 @@ console.log(++a,a);
 // results(10,10)
 
 
+
+//  EXPERIMENT
 a = 10;
 let b = 20;
 let c = (a++) + b + a;
@@ -20,6 +22,7 @@ console.log(c)
 
 
 
+//  EXPERIMENT
 a = 10;
 let b1 = 20;
 let c1 = a++ + b1 + a;
