@@ -5,6 +5,7 @@ const obj = {
 console.log(obj);
 obj.aum = "namah shivay";
 console.log(obj)
-
+delete obj.hello
+console.log(obj)
 
 // so yes we can add keys and values to an existing object declared with const ;
