@@ -13,4 +13,11 @@ const obj = {
     'Maleah Nash':89
 }
 
+//  Object.keys(<name of the object>);    <=  this returns an array of all keys in the object.
+
+k = Object.keys(obj);
+for(let i=0;i<k.length;i++){
+    console.log(k[i]+": "+obj[k[i]]);
+}
+
 
