@@ -15,4 +15,4 @@ for (let i in obj){
 }
 
 
-// 
+// basically the for in loop is used to loop through all the keys in an object;
