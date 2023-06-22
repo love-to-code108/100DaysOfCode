@@ -19,3 +19,14 @@ let arr2 = Array.from(obj);
 console.log(arr2);
 
 // lets try with a more simpler form of object if it is even possible
+// let obj2 = {
+//     "a"
+//     "b"
+//     "c"
+//     "d"
+// };
+
+// let arr3 = Array.from(obj2);
+// console.log(arr3);
+
+// the above shit doesnot work;;;
