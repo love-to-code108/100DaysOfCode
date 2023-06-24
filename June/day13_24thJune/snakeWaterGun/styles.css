@@ -8,17 +8,25 @@
 /* ======================================================== */
 /* the main body starts from here onwards */
 
+#BigContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* ======================================================== */
 /* container1 starts here */
 
 #container1{
+    height: 80%;
     width: 100%;
-    height: 100vh;
-    background-color: red;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    
 }
 
 /* the "me" container inside container 1 */
@@ -37,4 +45,17 @@
     width: 20%;
     height: 40%;
     background-color: blueviolet;
+}
+
+
+/* ========================================================== */
+/* container 2 starts here */
+
+#container2{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
