@@ -38,9 +38,12 @@ for (let i = 0; i < 100; i++) {
 
 
     }
-    if()
+    // printing the message incase you fail to guess the right number:
+    if (i == 99) {
+        console.log("Your Chances Ended :");
+        console.log("The right answer was: " + random);
+    }
 
 }
-console.log("Your Chances Ended :");
-console.log("The right answer was: " + random);
+
 
