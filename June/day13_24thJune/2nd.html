@@ -13,9 +13,16 @@
     <script>
         const runJs = () => {
             const age = Number(prompt("Enter your age here"));
-
-
             
+            
+            // Checking the age is +ve or -ve here;
+            if(age < 0 || age > 100){
+                console.error("The age entered was negative:  or age enterned is larger than 100 ");
+                exit();
+            } 
+
+
+
             if (age >= 18) {
                 alert("You can drive");
             } else {
