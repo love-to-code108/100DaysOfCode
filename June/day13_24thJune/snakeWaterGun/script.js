@@ -31,6 +31,16 @@ var computer,user;
     }
 
 
+    // for userInput == gun
+    const gun = (comp)=>{
+        if(comp == 1){
+            user += 1
+        }else if(comp == 2){
+            computer += 1
+        }
+    }
+
+
     for(let i=0;i<10;i++) {
         let n = input()
         if ((n == "SNAKE") || (n == "WATER") || (n == "GUN")) {
