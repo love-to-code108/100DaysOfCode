@@ -2,18 +2,24 @@
 
 function main() {
 
+var computer,user;
+
+
+
     const input = () => {
         let n = prompt("Enter Your Choice(IN CAPS) \n1. SNAKE\n2.WATER\n3.GUN");
         return n;
     }
     const snake = (comp)=>{
-        if(comp == 1){
-            
+        if(comp == 2){
+            user += 1
+        }else if(comp == 3){
+            computer += 1
         }
     }
 
 
-    while (true) {
+    for(let i=0;i<10;i++) {
         let n = input()
         if ((n == "SNAKE") || (n == "WATER") || (n == "GUN")) {
             if (confirm("Your choice was:\n" + n)) {
@@ -24,27 +30,28 @@ function main() {
                 // if rndom == 3  then it is (GUN)
 
                 if(n == "SNAKE"){
-                   point(snake(rndom));
-                   
+                   snake(rndom);                
                 }
                 
                 
                 else if(n == "WATER"){
-                    point(water(rndom));
+                    water(rndom);
                 }
                 
                 
                 else if(n == "GUN"){
-                    point(gun(rndom));
+                    gun(rndom);
                 }
 
 
 
 
             }else{
+                i--;
                 continue;
             }
         }else{
+            i--;
             alert("Wrong Input");
             continue;
         }
