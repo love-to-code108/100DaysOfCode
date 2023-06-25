@@ -35,6 +35,11 @@
     width: 15%;
     height: 40%;
     background-color: blueviolet;
+    font-size : 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /* the "computer" container inside contianer 1 */
@@ -43,6 +48,10 @@
     width: 15%;
     height: 40%;
     background-color: blueviolet;
+    font-size : 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
