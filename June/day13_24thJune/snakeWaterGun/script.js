@@ -10,10 +10,22 @@ var computer,user;
         let n = prompt("Enter Your Choice(IN CAPS) \n1. SNAKE\n2.WATER\n3.GUN");
         return n;
     }
+
+
+    // for userInput == snake
     const snake = (comp)=>{
         if(comp == 2){
             user += 1
         }else if(comp == 3){
+            computer += 1
+        }
+    }
+
+    // for userInput == water
+    const water = (comp)=>{
+        if(comp == 3){
+            user += 1
+        }else if(comp == 1){
             computer += 1
         }
     }
@@ -43,6 +55,8 @@ var computer,user;
                     gun(rndom);
                 }
 
+
+                continue;
 
 
 
